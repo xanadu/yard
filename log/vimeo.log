@@ -1,0 +1,61 @@
+D/AndroidRuntime(11609): 
+D/AndroidRuntime(11609): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(11609): CheckJNI is OFF
+D/dalvikvm(11609): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(11609): Added shared lib libjavacore.so 0x0
+D/dalvikvm(11609): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(11609): Added shared lib libnativehelper.so 0x0
+D/AndroidRuntime(11609): Calling main entry com.android.commands.am.Am
+D/dalvikvm(11609): Note: class Landroid/app/ActivityManagerNative; has 163 unimplemented (abstract) methods
+I/ActivityManager(  431): START u0 {dat=http://player.vimeo.com/video/27699350 flg=0x10000000 cmp=com.vimeo.android.videoapp/com.vimeo.android.lib.ui.player.LaunchFullScreenVideoPlayerFullScreenVideoPlayer} from pid 11609
+D/dalvikvm(  431): GC_FOR_ALLOC freed 1977K, 19% free 19502K/24012K, paused 62ms, total 62ms
+D/AndroidRuntime(11609): Shutting down VM
+D/dalvikvm(11609): GC_CONCURRENT freed 91K, 16% free 510K/604K, paused 1ms+1ms, total 4ms
+I/NuCachedSource2(  124): Keep alive
+I/Process (11553): Sending signal. PID: 11553 SIG: 9
+I/ActivityManager(  431): Process com.vimeo.android.videoapp (pid 11553) has died.
+I/dalvikvm(11634): Turning on JNI app bug workarounds for target SDK version 10...
+I/ActivityManager(  431): Start proc com.vimeo.android.videoapp for activity com.vimeo.android.videoapp/com.vimeo.android.lib.ui.player.LaunchFullScreenVideoPlayerFullScreenVideoPlayer: pid=11634 uid=10071 gids={50071, 3003, 1006, 1015, 1028}
+D/AndroidRuntime(11634): Shutting down VM
+W/dalvikvm(11634): threadid=1: thread exiting with uncaught exception (group=0x4196c700)
+E/Vimeo   (11634): uncaught exception
+E/Vimeo   (11634): java.lang.ClassNotFoundException: Didn't find class "com.vimeo.android.lib.ui.player.LaunchFullScreenVideoPlayerFullScreenVideoPlayer" on path: DexPathList[[zip file "/data/app/com.vimeo.android.videoapp-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.vimeo.android.videoapp-1, /vendor/lib, /system/lib]]
+E/Vimeo   (11634):  at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:53)
+E/Vimeo   (11634):  at java.lang.ClassLoader.loadClass(ClassLoader.java:501)
+E/Vimeo   (11634):  at java.lang.ClassLoader.loadClass(ClassLoader.java:461)
+E/Vimeo   (11634):  at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+E/Vimeo   (11634):  at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2128)
+E/Vimeo   (11634):  at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2261)
+E/Vimeo   (11634):  at android.app.ActivityThread.access$600(ActivityThread.java:141)
+E/Vimeo   (11634):  at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+E/Vimeo   (11634):  at android.os.Handler.dispatchMessage(Handler.java:99)
+E/Vimeo   (11634):  at android.os.Looper.loop(Looper.java:137)
+E/Vimeo   (11634):  at android.app.ActivityThread.main(ActivityThread.java:5103)
+E/Vimeo   (11634):  at java.lang.reflect.Method.invokeNative(Native Method)
+E/Vimeo   (11634):  at java.lang.reflect.Method.invoke(Method.java:525)
+E/Vimeo   (11634):  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+E/Vimeo   (11634):  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+E/Vimeo   (11634):  at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime(11634): FATAL EXCEPTION: main
+E/AndroidRuntime(11634): java.lang.ClassNotFoundException: Didn't find class "com.vimeo.android.lib.ui.player.LaunchFullScreenVideoPlayerFullScreenVideoPlayer" on path: DexPathList[[zip file "/data/app/com.vimeo.android.videoapp-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.vimeo.android.videoapp-1, /vendor/lib, /system/lib]]
+E/AndroidRuntime(11634):    at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:53)
+E/AndroidRuntime(11634):    at java.lang.ClassLoader.loadClass(ClassLoader.java:501)
+E/AndroidRuntime(11634):    at java.lang.ClassLoader.loadClass(ClassLoader.java:461)
+E/AndroidRuntime(11634):    at android.app.Instrumentation.newActivity(Instrumentation.java:1061)
+E/AndroidRuntime(11634):    at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2128)
+E/AndroidRuntime(11634):    at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2261)
+E/AndroidRuntime(11634):    at android.app.ActivityThread.access$600(ActivityThread.java:141)
+E/AndroidRuntime(11634):    at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+E/AndroidRuntime(11634):    at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime(11634):    at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime(11634):    at android.app.ActivityThread.main(ActivityThread.java:5103)
+E/AndroidRuntime(11634):    at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(11634):    at java.lang.reflect.Method.invoke(Method.java:525)
+E/AndroidRuntime(11634):    at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+E/AndroidRuntime(11634):    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+E/AndroidRuntime(11634):    at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  431):   Force finishing activity com.vimeo.android.videoapp/com.vimeo.android.lib.ui.player.LaunchFullScreenVideoPlayerFullScreenVideoPlayer
+I/WindowManager(  431): Screenshot max retries 4 of Token{425c4118 ActivityRecord{420b6d48 u0 com.vimeo.android.videoapp/com.vimeo.android.lib.ui.player.LaunchFullScreenVideoPlayerFullScreenVideoPlayer}} appWin=Window{426718f0 u0 Starting com.vimeo.android.videoapp} drawState=4
+W/WindowManager(  431): Screenshot failure taking screenshot for (800x1280) to layer 21015
+W/ActivityManager(  431): Activity pause timeout for ActivityRecord{420b6d48 u0 com.vimeo.android.videoapp/com.vimeo.android.lib.ui.player.LaunchFullScreenVideoPlayerFullScreenVideoPlayer}
+W/ActivityManager(  431): Activity destroy timeout for ActivityRecord{420b6d48 u0 com.vimeo.android.videoapp/com.vimeo.android.lib.ui.pl
